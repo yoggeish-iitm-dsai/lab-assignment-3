@@ -7,7 +7,7 @@ sort -n numbers.txt
 
 # 2. Print the IP address of the machine
 # Your command here
-ip address
+hostname -I
 
 
 # 3. Show the contents of a file named "readme.txt" in the current directory
@@ -42,7 +42,7 @@ grep -w TODO *.py
 
 # 9. Show the last 20 commands entered in the terminal
 # Your command here
-history | tail -20
+history 20
 
 # 10. Show processes sorted by memory usage
 # Your command here
